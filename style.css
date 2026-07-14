@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navigation{
+    height: 60px;
+    color: white;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+/* box1 */
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url(./amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white ;
+}
+/* box2 */
+.icon{
+    display: flex;
+    align-items: center;
+}
+
+.border1{
+    border: 1.5px solid transparent;
+    padding: 10px;
+}
+.border1:hover{
+    border: 1.5px solid white ;
+    padding: 10px;
+}
+/* box3 */
+.search{
+    display: flex;
+    background-color: rgb(218, 161, 18);
+    width: 630px;
+    height: 40px;
+    border-radius: 5px;
+}
+.search:hover{
+    border: 3px solid rgb(218, 161, 18);
+}
+.option{
+    border-top-left-radius: 5px; border-bottom-left-radius:5px ;
+    width: 50px;
+    font-size:1rem;
+    text-align: center;
+}
+.type{
+    width: 530px;
+    font-size:1rem;
+}
+.search-icon{
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    font-size: 1rem;
+}
+/* box4 */
+.country{
+    display: flex;
+    font-size: 1.5rem;
+}
+/* box5 */
+.sign{
+    font-size: 0.8rem;
+}
+.account{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.border2{
+    border: 1.5px solid transparent;
+    padding: 8.7px;
+}
+.border2:hover{
+    border: 1.5px solid white ;
+    padding:8.7px;
+}
+/* box6 */
+.cart{
+    display: flex;
+}
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pan-option p{
+    display: inline;
+    margin-left: 15px;
+}
+.pan-option{
+    width: 70%;
+    font-size:  0.86rem;
+}
+.deals{
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.border3{
+    border: 1.5px solid transparent;
+    padding: 8.7px;
+}
+.border3:hover{
+    border: 1.5px solid white ;
+    padding:8.7px;
+}
+
+/* hero section */
+.hero-sec{
+    background-image: url(\\hero_image.jpg);
+    background-size: cover;
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.msg{
+    height: 40px;
+    width: 1460px;
+    font-size: 0.85rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f6f6;
+    margin-bottom: 20px;
+}
+.msg a{
+    color: #007185;
+}
+
+/* shopping section */
+.shopping{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ceddda;
+    flex-wrap: wrap;
+}
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 23px;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+.image{
+    height: 320px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background-size: cover;
+}
+.box-content{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content p{
+    color: #007185; 
+}
+
+/* Footer */
+.foot-panel1{
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+.foot-panel2{
+    background-color: #222f3d;
+    color: #dddddd;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+ul a{
+    display: block;
+    margin-top: 12px;
+    font-size: 0.95rem;
+}
+.pan-margin{
+    margin: 20px;
+    margin-top: 60px;
+}
+.foot-panel3{
+    background-color: #222f3d;
+    border-top: 0.1px solid #dddddd;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    background-image: url(./amazon_logo.png);
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+.foot-panel4{
+    background-color:#131a22;
+    color: #dddddd;
+    height: 76px;
+    text-align: center;
+    padding-top: 30px;
+    font-size: 0.85rem;
+}
